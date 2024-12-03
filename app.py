@@ -33,10 +33,7 @@ def main():
     # Get the password from the command line
     password = args.p
 
-    # Do something with the password (for example, print it)
-    print(f"Password received: {password}")
-
-    password=sys.argv[1]
+    password=sys.argv[2]
     # Set up Firefox options
     options = webdriver.FirefoxOptions()
     options.add_argument("--headless")  # Run in headless mode (no visible browser)
